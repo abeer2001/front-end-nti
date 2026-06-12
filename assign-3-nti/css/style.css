@@ -1,0 +1,224 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: blueviolet;
+}
+.container{
+    width:70%;
+    margin:auto;
+
+}
+.my-div{
+    background-color: #00ffff9d;
+    width:50%;
+    display: inline-block;
+    padding-top: 30px;
+    padding-bottom: 20%;
+    padding-inline: 40px;
+    vertical-align: top;
+    font-size: 1.1rem;
+}
+.my-div h1{
+    text-align: center;
+    color:rgb(255, 255, 255);
+}
+.my-div p{
+    text-align: center;
+    color:rgba(255, 255, 255, 0.704);
+}
+form{
+    width:50%;
+    display: inline-block;
+    background-color: white;
+    padding-bottom:30px;
+    padding-left:40px;
+}
+form h1{
+    text-align: center;
+}
+/* form button{
+    text-align: center;
+} */
+form .format{
+    width:80%;
+    padding:10px;
+    margin:5px;
+    background-color: lightgray;
+    border:none;
+}
+button{
+    background-color: #00ffff9d;
+    padding-inline:30px;
+    padding-block: 10px;
+    border-radius: 15px;
+    border:none;
+    color:white;
+    margin-left: 35%;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Exo", sans-serif;
+}
+ul {
+  list-style: none;
+  width: 40%;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+
+.w-100 {
+  width: 100%;
+}
+.w-50 {
+  width: 50%;
+}
+.w-40 {
+  width: 40%;
+}
+.w-30 {
+  width: 30%;
+}
+.w-20 {
+  width: 20%;
+}
+.w-10 {
+  width: 10%;
+}
+.w-1{
+  width: 1%;
+}
+
+.float-left {
+  float: left;
+}
+.float-right {
+  float: right;
+}
+.clear-fix {
+  clear: both;
+}
+.d-inline-block {
+  display: inline-block;
+}
+
+
+.margin {
+  margin-left: 10px;
+}
+.mr-5 {
+  margin-right: 200px;
+}
+.mr-4 {
+  margin-right: 150px;
+}
+.mr-3 {
+  margin-right: 30px;
+}
+.mr-1 {
+  margin-right: 10px;
+}
+.mt-1 {
+  margin-top: 10px;
+}
+.mb-2 {
+  margin-bottom: 20px;
+}
+
+
+.pt-1 {
+  padding-top: 10px;
+}
+.pt-2 {
+  padding-top: 20px;
+}
+.pt-3{
+  padding-top: 30px;
+}
+.pt-5 {
+  padding-top: 50px;
+}
+.pt-7 {
+  padding-top: 70px;
+}
+.pb-5 {
+  padding-bottom: 50px;
+}
+
+
+.fs-55 {
+  font-size: 55px;
+}
+.fs-35 {
+  font-size: 35px;
+}
+.fs-25 {
+  font-size: 25px;
+}
+.fs-14 {
+  font-size: 14px;
+}
+.fs-12 {
+  font-size: 12px;
+}
+
+.fw-bold{
+   font-weight:900;
+}
+
+.bg-success {
+  background-color: rgb(98, 185, 101);
+}
+.bg-danger{
+  background-color: red;
+}
+.bg-white {
+  background-color: white;
+}
+.bg-lightgray{
+  background-color: rgba(211, 211, 211, 0.101);
+}
+
+
+.text-success {
+  color: rgb(98, 185, 101);
+}
+.text-white {
+  color: white;
+}
+.text-LDark {
+  color: rgba(0, 0, 0, 0.445);
+}
+
+.text-center{
+   text-align: center;
+}
+.m-auto{
+   margin:auto;
+}
+
+
+nav {
+  background-color: rgb(245, 247, 250);
+}
+section {
+  background-color: rgb(245, 247, 250);
+}
+.container {
+  width: 80%;
+  margin: auto;
+}
+nav .container img {
+  margin-top: 15px;
+}
+button {
+  border: 0;
+  border-radius: 4px;
+  padding-block: 5px;
+  padding-inline: 15px;
+}
