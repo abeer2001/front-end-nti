@@ -1,0 +1,100 @@
+
+.fs-14{
+  font-size: 14px;
+}
+.fs-60{
+  font-size: 60px;
+}
+.fs-7{
+  font-size: 70px;
+}
+.fs-8{
+  font-size: 80px;
+}
+
+
+.h-7{
+  height:70%;
+}
+.h-8{
+  height:80%;
+}
+.h-400px{
+  height:400px;
+}
+.h-500px{
+  height:500px;
+}
+
+
+.w-10{
+  width:10%;
+}
+.w-15{
+  width:15%;
+}
+.w-70{
+  width:70%;
+}
+
+
+.left-5{
+  left:-5%;
+}
+.left-6{
+  left:-6%;
+}
+.hero{
+  background-image: url("../images/Image\ Placeholder.png");
+  background-position: center center;
+  background-size: cover;
+  min-height: 100vh;
+}
+.card1{
+  transition: all 0.5s linear;
+}
+.card1:hover{
+   background-color: green;
+   color:white;
+}
+
+.desc{
+  transition: all 0.5s linear;
+}
+.desc:hover{
+  background-color: rgba(0, 128, 0, 0.645);
+  color:white;
+}
+
+.accordion-item:hover{
+  background-color: green;
+  border:none;
+  color:white;
+}
+.accordion-item:hover .accordion-button{
+  background-color: green;
+  color:white;
+}
+
+.accordion-button:focus,
+.accordion-button:active {
+    box-shadow: none ; 
+}
+
+
+.card.card2{
+  border:none;
+}
+
+
+
+
+
+
+
+
+@media (min-width: 576px) { 
+   section #sec-two h2{
+     font-size: 20px !important;
+   }
+ }
